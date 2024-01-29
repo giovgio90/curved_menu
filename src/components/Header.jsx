@@ -13,7 +13,7 @@ const Header = () => {
           }}
           className="button"
         >
-          <div className={`burger ${isActive ? "burgerActive" : ""}`}></div>
+          -<div className={`burger ${isActive ? "burgerActive" : ""}`}></div>
         </div>
       </div>
 
