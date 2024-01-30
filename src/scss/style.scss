@@ -27,7 +27,7 @@ body {
   &::before {
     content: "";
     display: block;
-    height: 1px;
+    height: 2px;
     width: 40%;
     margin: auto;
     background-color: white;
@@ -47,7 +47,7 @@ body {
 .burgerActive {
   &::after {
     transform: rotate(45deg);
-    top: -1px;
+    top: -2px;
   }
 
   &::before {
@@ -111,7 +111,8 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  padding-left: 30px;
 
   &__header {
     font-size: clamp(2.5rem, (3rem + 2.75vw), 8rem);

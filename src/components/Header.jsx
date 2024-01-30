@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Nav from "./Nav";
 import { AnimatePresence } from "framer-motion";
+import "../scss/style.scss";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
           }}
           className="button"
         >
-          -<div className={`burger ${isActive ? "burgerActive" : ""}`}></div>
+          <div className={`burger ${isActive ? "burgerActive" : ""}`}></div>
         </div>
       </div>
 
