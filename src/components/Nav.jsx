@@ -18,7 +18,7 @@ const Nav = () => {
           ))}
         </div>
         <div className="footer">
-          <a href="/">© Copyright Giovanni Giordano 2024</a>
+          <a href="/">© Giovanni Giordano 2024</a>
         </div>
       </div>
       <Curve />
